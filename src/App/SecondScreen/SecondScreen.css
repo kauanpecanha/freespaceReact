@@ -1,0 +1,19 @@
+.title{
+    margin: 20px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.inputs input{
+    height: 60px;
+    width: 600px;
+    align-self: center;
+    border-radius: 10px;
+    border: 2px;
+    padding-left: 10px;
+}

@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = props => {
     return(
-        <div className="footer">
+        <div className="footer" style={{backgroundColor: props.color}}>
             <h1>{props.title}</h1>
         </div>
     )

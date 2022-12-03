@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './FirstScreem.css'
-import Header from '../Components/Header'
-import Footer from '../Components/Footer'
+import Header from '../Components/Header/Header'
+import Footer from '../Components/Footer/Footer'
 import "./selecao.png"
 
 const Screem = () => {
