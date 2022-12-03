@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: dodgerblue;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    height: 20vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 125px;
+    height: 125px;
+    cursor: pointer;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
+.routes ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.routes ul li {
+    margin: 10px;
+    font-size: 23px;
+}
+
+.routes ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.routes ul li:hover {
+    background-color: tomato;
+    color: antiquewhite;
+}
